@@ -55,8 +55,10 @@
       <section class="container-fluid bg-dark p-5">
         <div class="row">
           <div class="col-md-10 col-lg-8 mx-auto text-white">
-            <h1 class="title display-3 mb-0">RSS агрегатор</h1>
-            <p class="subTitle lead">
+            <h1 class="title display-3 mb-0" data-i18n="elements.title">
+              RSS агрегатор
+            </h1>
+            <p class="subTitle lead" data-i18n="elements.subTitle">
               Начните читать RSS сегодня! Это легко, это красиво.
             </p>
             <form action="" class="rss-form text-body">
@@ -73,7 +75,12 @@
                       placeholder="ссылка RSS"
                       autocomplete="off"
                     />
-                    <label for="url-input" class="rssLink">Ссылка RSS</label>
+                    <label
+                      for="url-input"
+                      class="rssLink"
+                      data-i18n="elements.label"
+                      >Ссылка RSS</label
+                    >
                   </div>
                 </div>
                 <div class="col-auto">
@@ -81,13 +88,14 @@
                     type="submit"
                     aria-label="add"
                     class="mainButton h-100 btn btn-lg btn-primary px-sm-5"
+                    data-i18n="elements.addButton"
                   >
                     Добавить
                   </button>
                 </div>
               </div>
             </form>
-            <p class="exampleUrl mt-2 mb-0 text-muted">
+            <p class="mt-2 mb-0" data-i18n="elements.example">
               Пример: https://ru.hexlet.io/lessons.rss
             </p>
             <p class="feedback m-0 position-absolute small text-danger"></p>
@@ -107,7 +115,7 @@
 
     <footer class="footer border-top py-3 mt-5 bg-light">
       <div class="container-xl">
-        <div class="text-center">
+        <div class="text-center" data-i18n="elements.footerCreated">
           created by
           <a
             href="https://ru.hexlet.io/professions/frontend/projects/11"
