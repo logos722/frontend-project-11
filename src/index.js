@@ -1,8 +1,5 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import initApp from './view/init.js';
-import app from './app.js';
+import init from './init.js';
 
-initApp().then(() => {
-  app();
-});
+init();
